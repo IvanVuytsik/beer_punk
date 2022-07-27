@@ -51,7 +51,7 @@ const preference = () => {
 
   return (
     <>
-      <h2 className="m-[4rem] text-[2rem] text-bgvar flex items-center justify-center">Beer Boutique</h2>
+      <h2 className="m-[1rem] text-[2rem] text-bgvar flex items-center justify-center">Beer Boutique</h2>
 
       <Splide options={{perPage: 4, breakpoints: {640: {perPage: 2}, 1024: {perPage: 3}, 400: {perPage: 1}}, arrows: false, pagination: true, drag: "free", gap: "2rem"}}>
       <AnimatePresence> 
